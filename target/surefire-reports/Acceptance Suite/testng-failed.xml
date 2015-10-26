@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Acceptance Suite]">
+  <test name="Check Wikipedia(failed)" preserve-order="false">
+    <classes>
+      <class name="com.tests.acceptance.SimpleTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="startUp"/>
+        </methods>
+      </class>
+      <class name="com.tests.acceptance.SimpleTest2">
+        <methods>
+          <include name="wikipediaCheck"/>
+          <include name="tearDown"/>
+          <include name="startUp"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="Assert DuckDuckGo(failed)" preserve-order="false">
+    <classes>
+      <class name="com.tests.acceptance.SimpleTest">
+        <methods>
+          <include name="runSimpleTest"/>
+          <include name="tearDown"/>
+          <include name="startUp"/>
+        </methods>
+      </class>
+      <class name="com.tests.acceptance.SimpleTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="startUp"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

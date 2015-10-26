@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="X200s" name="com.tests.acceptance.SimpleTest" tests="1" failures="0" timestamp="30 Mar 2015 08:04:53 GMT" time="6.834" errors="0">
+  <testcase name="runSimpleTest" time="1.528" classname="com.tests.acceptance.SimpleTest"/>
+</testsuite>
