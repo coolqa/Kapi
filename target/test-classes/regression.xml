@@ -1,9 +1,0 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Regression Suite">
-	<test name="Login">
-		<classes>
-			<class
-				name="com.tests.regression.SimpleTest"></class>
-		</classes>
-	</test>
-</suite>

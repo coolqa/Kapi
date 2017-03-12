@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite hostname="X200s" name="com.tests.acceptance.SimpleTest2" tests="1" failures="0" timestamp="30 Mar 2015 08:05:05 GMT" time="12.195" errors="0">
-  <testcase name="wikipediaCheck" time="8.766" classname="com.tests.acceptance.SimpleTest2"/>
-</testsuite>
